@@ -18,10 +18,10 @@ class Solution(object):
             s[left], s[right] = s[right], s[left]
             left+=1
             right-=1
-            return ''.join(s)
+        return ''.join(s)
                 
 
 #Test 
-s = "IceCreAm"
+s = "leetcode"
 result = Solution().reverseVowels(s)
 print(result)
